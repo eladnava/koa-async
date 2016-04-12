@@ -1,0 +1,23 @@
+{
+  "name": "koa-async",
+  "version": "1.0.0",
+  "description": "A Koa wrapper for caolan/async.",
+  "main": "wrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eladnava/koa-async.git"
+  },
+  "author": "Elad Nava",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/eladnava/koa-async/issues"
+  },
+  "homepage": "https://github.com/eladnava/koa-async#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "koa": "^1.2.0"
+  }
+}
