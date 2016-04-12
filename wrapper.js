@@ -29,7 +29,7 @@ function wrapAsyncMethod(fn, ctx) {
 function wrapAsync() {
     // Traverse async methods
     for (var fn in async) {
-        // Thunkify the method
+        // Promisify the method
         async[fn] = wrapAsyncMethod(async[fn], async);
     }
 
